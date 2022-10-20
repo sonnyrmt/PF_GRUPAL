@@ -1,0 +1,103 @@
+.container{
+    position: relative;
+}
+
+.slide{
+    min-width: 100%;
+    overflow: hidden;
+    transition: .3s ease all;
+    z-index: 10;
+    position: relative;
+    height: 250px;
+    
+}
+
+.img1 {
+    width: 100%;
+    height: 300px;
+    vertical-align: top;
+    max-height: 500px;
+    background-image: url("https://images.ctfassets.net/c2ymzylebto4/fxy8GwTOpQDSM4HbSsgBQ/da65039779b2fd54cacd0640944509d4/fitbit.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.img2 {
+    width: 100%;
+    height: 300px;
+    vertical-align: top;
+    max-height: 500px;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4E1BAQE9L2aWWFLrFA/company-background_10000/0/1640006539765?e=2147483647&v=beta&t=Y6ep235j_Q6792Ot4DftIdRGlKEoivb1w33Nx8bSbpw");
+    background-position: center;
+    background-size: contain;
+}
+
+.img3 {
+    width: 100%;
+    height: 300px;
+    vertical-align: top;
+    max-height: 500px;
+    background-image: url("https://www.mutualargentino.com.ar/barrasocios2020_.png");
+    background-position: center;
+    background-size: contain;
+}
+
+
+.textSlide{
+    background-color: rgba(93, 93, 93, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px 60px;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+}
+
+.containerSlide{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.controlers{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+/* 
+.controlers :hover{
+    background: rgba(0,0,0,0.2);
+} */
+
+.boton{
+    pointer-events: all;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    transition: .3s ease all;
+}
+
+.boton :hover{
+    background: none;
+}
+
+
+.right{
+    right: 0;
+}
+
+.left{
+    left: 0;
+}

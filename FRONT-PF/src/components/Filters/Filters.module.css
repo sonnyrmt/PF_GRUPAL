@@ -1,0 +1,9 @@
+.fieldContainer {
+  display: flex;
+  justify-content: center;
+}
+.textField {
+  display: flex;
+  width: 150px;
+  margin-left: 20px;
+}

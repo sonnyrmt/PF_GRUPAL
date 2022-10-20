@@ -1,0 +1,65 @@
+.cardContracts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93.2vh;
+  background-image: url("https://i.imgur.com/UaCROI7.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.containerContacts {
+  width: 90%;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.829);
+  backdrop-filter: blur(10px);
+  height: 80vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid white;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 2%; */
+}
+
+.cardContainer {
+  display: flex;
+  gap: 1vw;
+  justify-content: start;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2vh;
+  background-color: rgb(6, 40, 61);
+}
+
+.filters button {
+  display: flex;
+  color: white;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+}
+
+.filters button:hover {
+  background-color: rgb(228, 228, 236);
+  border-radius: 10px;
+  transition: 0.5s all;
+  color: black;
+}

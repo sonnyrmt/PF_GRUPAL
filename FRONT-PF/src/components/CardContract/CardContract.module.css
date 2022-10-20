@@ -1,0 +1,111 @@
+.card {
+  flex-direction: column;
+  padding: 4%;
+  border-radius: 10px;
+  height: 65vh;
+  width: 370px;
+  background-color: white;
+  transition: all 2s;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card h3 {
+  display: flex;
+  background-color: rgb(6, 40, 61);
+  border-radius: 10px;
+
+  padding: 5px 0 3px 10px;
+  letter-spacing: 2px;
+  color: rgb(250, 245, 245);
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.containerInfo h4 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.containerInfo span {
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.containerInfoDesc {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerInfoDesc h4 {
+  color: black;
+  font-size: 1.5rem;
+  width: fit-content;
+  border-bottom: 2px solid white;
+}
+
+.containerInfoDesc span {
+  margin-left: 5%;
+  margin-top: 1%;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.btnsConfirmacion {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  margin: 10%;
+}
+
+.btnsConfirmacion button {
+  min-width: 130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: rgb(6, 40, 61);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s;
+  margin: 0 10px;
+}
+
+.btnsConfirmacion button:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #1d1c1c, 0 15px 0 -4px #39a2db,
+    0 16px 10px -3px #39a2db;
+}
+.btnsConfirmacion button:active {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  box-shadow: 0 2px 0 -2px #1d1c1c, 0 8px 0 -4px #39a2db,
+    0 12px 10px -3px #39a2db;
+}
+
+.opinion {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.opinion button {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+
+.dataContainer {
+  height: 85%;
+}
